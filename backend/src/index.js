@@ -1,3 +1,12 @@
-const { log } = console;
+import express from 'express';
 
-log('It works!');
+const app = express();
+
+app.all('/', function (request, response) {
+  response.send({
+    message: 'It works! With express!',
+    ...request.body,
+  });
+});
+
+app.listen(3000);

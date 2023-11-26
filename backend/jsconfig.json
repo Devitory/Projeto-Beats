@@ -5,7 +5,7 @@
 
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "allowSyntheticDefaultImports": false,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": false,
     "resolveJsonModule": true,
 
