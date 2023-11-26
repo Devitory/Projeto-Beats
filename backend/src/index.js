@@ -1,12 +1,15 @@
-import express from 'express';
+async function fetch() {
+  const data = { message: 'It works' };
 
-const app = express();
+  const body = JSON.stringify(data, null, 2);
 
-app.all('/', function (request, response) {
-  response.send({
-    message: 'It works! With express!',
-    ...request.body,
-  });
-});
+  const status = 200;
 
-app.listen(3000);
+  const headers = new Headers();
+
+  headers.set('content-type', 'application/json;charset=UTF-8')
+
+  return new Response(body, { status, headers });
+}
+
+export default { fetch }
