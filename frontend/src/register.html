@@ -2,18 +2,43 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Beats</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beats</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <form class="form-login" method="post">
+    <h1>Entre com suas credenciais</h1>
 
-    <div id="logo">
-        <p>BEATS</p>
+    <div class="useremail">
+      <label for="email">Email de usuário:</label>
+      <input id="email" type="email" placeholder="Insira seu email" required>
+      <br />
+      <br />
     </div>
 
+    <div class="username">
+      <label for="username">Nome de usuário:</label>
+      <input id="username" type="text" placeholder="Insira seu nome" required>
+      <br />
+      <br />
+    </div>
+
+    <div class="password">
+      <label for="password">Senha de usuário:</label>
+      <input id="password" type="password" placeholder="Insira sua senha" required>
+      <br />
+      <br />
+    </div>
+
+    <input type="submit" value="Enviar">
+
+    <div class="link de registro">
+      <p>Não possui conta?<a href="#">Cadastre-se</a></p>
+    </div>
+  </form>
 </body>
 
 </html>
