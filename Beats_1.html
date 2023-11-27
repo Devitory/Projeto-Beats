@@ -3,6 +3,7 @@
 
 <head>
     <title>Formulário de Login</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <style>
     body {
@@ -29,13 +30,24 @@
     <form method="post" action="teste2.php">
         <h1>Entre com suas credenciais</h1>
         <label for="username">Nome de usuário:</label>
-        <input type="text" id="username" name="username" required>
+        <input type="text" placeholder="Login">
+        <i class='bx bxs-user'></i>
         <br><br>
 
         <label for="senha">Senha de usuário:</label>
-        <input type="password" id="senha" name="senha" required>
+        <input type="password" placeholder="Senha"required>
+        <i class='bx bxs-lock-alt' ></i>
         <br><br>
         <input type="submit" value="Entrar">
+        
+        <div class="remember-forgot">
+            <label><input type="checbox">remember me</label>
+        <a href="#">esqueceu a senha?</a>
+        </div>
+        
+        <div class="link de registro">
+            <p>Não possui conta?<a href="#"><Registre-se></a></p>
+        </div>
     </form>
 </body>
 
