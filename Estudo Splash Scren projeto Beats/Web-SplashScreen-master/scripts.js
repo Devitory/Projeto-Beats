@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", () => {
       logoSpan.forEach(() => {
         span.classList.remove("active");
         span.classList.add("fade");
-      }, (idx + 1) * 50);
+      }, (+ 1) * 50);
     }, 2000);
 
     setTimeout(() => {
