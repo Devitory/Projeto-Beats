@@ -7,6 +7,17 @@ body {
     background-image: linear-gradient(90deg, rgb(255, 51, 0), #FF7323);
 }
 
+fieldset{
+    border: 3px solid dodgerblue;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
 .form-login {
     background-color: rgba(0, 0, 0, 0.329);
     position: absolute;
@@ -17,6 +28,7 @@ body {
     border-radius: 10px;
     padding: 40px;
     color: rgb(255, 255, 255);
+    width: 25%;
 }
 
 .logo {
@@ -28,3 +40,26 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#data_nascimento{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image: linear-gradient(90deg, rgb(255, 51, 0), #FF7323);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(90deg, rgb(255, 116, 36), rgb(255, 51, 0));
+}
+
