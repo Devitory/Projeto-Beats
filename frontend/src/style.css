@@ -16,7 +16,7 @@ legend {
     padding: 10px;
     text-align: center;
     background-color: dodgerblue;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .form-login {
@@ -26,7 +26,7 @@ legend {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px;
+    padding: 35px;
     border-radius: 15px;
     width: 30%;
 }
@@ -40,6 +40,7 @@ legend {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 #data_nascimento {
     border: none;
