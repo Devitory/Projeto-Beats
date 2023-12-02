@@ -9,11 +9,12 @@ body {
 
 fieldset {
     border: 3px solid dodgerblue;
+    border-radius: 10px;
 }
 
 legend {
     border: 1px solid dodgerblue;
-    padding: 10px;
+    padding: 9px;
     text-align: center;
     background-color: dodgerblue;
     border-radius: 10px;
@@ -27,7 +28,6 @@ legend {
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 35px;
-    border-radius: 15px;
     width: 30%;
 }
 
