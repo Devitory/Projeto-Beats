@@ -8,7 +8,7 @@ body {
 }
 
 fieldset {
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(243, 104, 104);
     border-radius: 10px;
 }
 
@@ -26,7 +26,7 @@ legend {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(151, 26, 26, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 35px;
     width: 30%;
     border-radius: 10px;
