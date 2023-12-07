@@ -28,5 +28,8 @@
     "prettier": "^3.1.0",
     "typescript": "^5.3.3",
     "wrangler": "^3.19.0"
+  },
+  "dependencies": {
+    "hono": "^3.11.3"
   }
 }
