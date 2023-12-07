@@ -11,13 +11,14 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 
     setTimeout(() => {
-      logoSpan.forEach(() => {
+      logoSpan.forEach((span) => {
         span.classList.remove("active");
         span.classList.add("fade");
       }, (+ 1) * 50);
     }, 2000);
 
     setTimeout(() => {
+      if (!intro) return;
       intro.style.top = "-100vh";
     }, 2300);
   });
