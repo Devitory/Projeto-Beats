@@ -12,6 +12,9 @@
     "allowJs": true,
     "checkJs": true,
 
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+
     "strict": true,
     "allowUnusedLabels": false,
     "allowUnreachableCode": false,
