@@ -14,6 +14,7 @@ export default [
         sourceType: 'module',
         ecmaVersion: 'latest',
         ecmaFeatures: {
+          jsx: true,
           impliedStrict: true
         }
       }
