@@ -1,7 +1,7 @@
 {
-  "name": "projeto-beats-auth",
+  "name": "projeto-beats-auth-service",
   "version": "1.0.0",
-  "description": "Projeto Beats - Authentication",
+  "description": "Projeto Beats - Authentication Service",
   "author": "Guilherme M. Miranda <alchemist.software@proton.me>",
   "license": "MIT",
   "engines": {
