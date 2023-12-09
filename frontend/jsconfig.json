@@ -1,17 +1,14 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["ESNext"],
-    "types": ["@cloudflare/workers-types"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": ["@types/alpinejs"],
 
     "module": "ESNext",
     "moduleResolution": "Bundler",
 
     "allowJs": true,
     "checkJs": true,
-
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx",
 
     "strict": true,
     "allowUnusedLabels": false,
