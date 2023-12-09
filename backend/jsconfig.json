@@ -2,9 +2,10 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["ESNext"],
+    "types": ["@cloudflare/workers-types"],
 
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": false,
     "resolveJsonModule": true,
