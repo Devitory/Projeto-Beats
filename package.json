@@ -20,9 +20,8 @@
     "@types/eslint__js": "^8.42.3",
     "eslint": "^8.55.0",
     "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.1.0",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.7"
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "alpinejs": "^3.13.3",
