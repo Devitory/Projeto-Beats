@@ -1,19 +1,11 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "ESNEXT", "DOM", "DOM.Iterable"],
 
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": false,
-    "resolveJsonModule": true,
-
+    "module": "ESNext",
     "allowJs": true,
     "checkJs": true,
-
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx",
 
     "strict": true,
     "allowUnusedLabels": false,
@@ -28,5 +20,5 @@
     "noUnusedParameters": true,
   },
   "include": ["src/"],
-  "exclude": ["**/node_modules/**", "**/dist/**"]
+  "exclude": ["node_modules", "dist"]
 }
