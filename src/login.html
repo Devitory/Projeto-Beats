@@ -1,41 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Beats</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login - Beats</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
-</head>
+  <body>
+    <form class="form-login" method="post">
+      <h1>Entre com suas credenciais</h1>
 
-<body>
-  <form class="form-login" method="post">
-    <h1>Entre com suas credenciais</h1>
+      <div class="email">
+        <label for="email">Nome de usuário:</label>
+        <input id="email" type="email" placeholder="Insira seu email" required />
+        <i class="bx bxs-user"></i>
+        <br />
+        <br />
+      </div>
 
-    <div class="email">
-      <label for="email">Nome de usuário:</label>
-      <input id="email" type="email" placeholder="Insira seu email" required>
-      <i class="bx bxs-user"></i>
-      <br />
-      <br />
-    </div>
+      <div class="password">
+        <label for="password">Senha de usuário:</label>
+        <input id="password" type="password" placeholder="Insira sua senha" required />
+        <i class="bx bxs-lock-alt"></i>
+        <br />
+        <br />
+      </div>
 
-    <div class="password">
-      <label for="password">Senha de usuário:</label>
-      <input id="password" type="password" placeholder="Insira sua senha" required>
-      <i class="bx bxs-lock-alt"></i>
-      <br />
-      <br />
-    </div>
+      <input type="submit" value="Enviar" />
 
-    <input type="submit" value="Enviar">
-
-    <div class="link de registro">
-      <p>Não possui conta?<a href="#">Cadastre-se</a></p>
-    </div>
-  </form>
-</body>
-
+      <div class="link de registro">
+        <p>Não possui conta?<a href="#">Cadastre-se</a></p>
+      </div>
+    </form>
+  </body>
 </html>
