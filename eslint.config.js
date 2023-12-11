@@ -1,5 +1,6 @@
 import eslintjs from '@eslint/js';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import globals from 'globals';
 
 /** @type {Array<import('eslint').Linter.FlatConfig>} */
 export default [
@@ -8,15 +9,13 @@ export default [
     files: ['**/*.js'],
     rules: eslintjs.configs.recommended.rules,
     languageOptions: {
+      globals : globals.browser,
       sourceType: 'module',
       ecmaVersion: 'latest',
       parserOptions: {
         sourceType: 'module',
         ecmaVersion: 'latest',
-        ecmaFeatures: {
-          jsx: true,
-          impliedStrict: true
-        }
+        ecmaFeatures: { impliedStrict: true }
       }
     }
   },
