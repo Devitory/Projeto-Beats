@@ -1,0 +1,4 @@
+name = "projeto-beats-app"
+main = "service/index.ts"
+compatibility_date = "2023-12-06"
+
