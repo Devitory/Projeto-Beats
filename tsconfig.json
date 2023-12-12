@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "lib": ["ESNext"],
+    "types": ["@cloudflare/worker-types"]
 
     "module": "ESNext",
     "allowJs": true,
@@ -19,6 +20,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
   },
-  "include": ["page/"],
+  "include": ["service/"],
   "exclude": ["node_modules", "dist"]
 }
