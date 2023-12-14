@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none; /* Responsavel por tirar azul classico de link de acesso */ 
+  color: #ff7323; 
+}
 
 .splash-screen {
   position: fixed;
