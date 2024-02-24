@@ -5,7 +5,7 @@ body{
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
   padding: 50px;
-  text-align: right;
+  text-align: center;
 }
 .container1{
   height: 250px;
