@@ -134,9 +134,22 @@ body{
 }
 .navigation .logo{
     color: var(--orange);
+    position: absolute;
+    left: 44%;
+    right: 50%;
     font-size: 1.7rem;
     font-weight: 600;
-}
+    
+} /*
+.navigation .logo1{
+  color: var(--orange);
+  position: absolute;
+  left: 50%;
+  right: -10%;
+  font-size: 1.7rem;
+  font-weight: 600;
+  
+} */
 .logo span{
     color: var(--dark);
 }
@@ -248,7 +261,9 @@ body{
         font-size: 15px;
     }
     .home-img{
-        width: 125%;
+        left: %30; /* posição da logo observar na resposividade */
+        right: ;
+        width: 100%;
     }
 }
 *{
