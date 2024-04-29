@@ -261,9 +261,9 @@ body{
         font-size: 15px;
     }
     .home-img{
-        left: %30; /* posição da logo observar na resposividade */
-        right: ;
-        width: 100%;
+        left: %50; /* posição da logo observar na resposividade */
+        right:;
+        width: %90;
     }
 }
 *{
