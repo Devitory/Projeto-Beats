@@ -135,7 +135,7 @@ body{
 .navigation .logo{
     color: var(--orange);
     position: absolute;
-    left: 50%;
+    left: 44%;
     right: 50%;
     font-size: 1.7rem;
     font-weight: 600;
@@ -261,7 +261,9 @@ body{
         font-size: 15px;
     }
     .home-img{
-        width: 125%;
+        left: %30; /* posição da logo observar na resposividade */
+        right: ;
+        width: 100%;
     }
 }
 *{
