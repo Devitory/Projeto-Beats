@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
         }
         form {
-            width: 50%;
+            width: 30%;
             margin: 0 auto;
             background-color: #fff;
             padding: 20px;
@@ -41,18 +41,36 @@
         input[type="submit"]:hover {
             background-color: #45a049;
         }
+.home-btn{
+    position: center;
+    padding: 15px 45px;
+    background: var(--orange);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.home-btn:hover{
+    background: #fc4c35;
+}
     </style>
 </head>
 <body>
 
 <form action="/submit" method="post">
 
+<section class="home">
+    <div class="home-text">
+    <a href="register.html" class="home-btn">Beats</a>
+</div>
+</section>
+
+
     <h2>Outros exercícios para o lazer:</h2>
 
     <div class="form-row">
         <input type="checkbox" id="crossfit" name="exercicio_checkbox[]" value="crossfit">
         <label for="corrida">Corrida</label>
-        <input type="number" id="crossfit_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="crossfit_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="crossfit_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -62,7 +80,6 @@
     <div class="form-row">
         <input type="checkbox" id="crossfit" name="exercicio_checkbox[]" value="crossfit">
         <label for="ciclismo">Ciclismo</label>
-        <input type="number" id="crossfit_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="crossfit_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="crossfit_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -72,7 +89,6 @@
 <div class="form-row">
     <input type="checkbox" id="crossfit" name="exercicio_checkbox[]" value="crossfit">
     <label for="natação">Natação</label>
-    <input type="number" id="crossfit_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
     <input type="number" id="crossfit_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
     <input type="number" id="crossfit_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
 </div>
@@ -82,7 +98,6 @@
 <div class="form-row">
     <input type="checkbox" id="crossfit" name="exercicio_checkbox[]" value="crossfit">
     <label for="caminhada">Caminhada</label>
-    <input type="number" id="crossfit_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
     <input type="number" id="crossfit_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
     <input type="number" id="crossfit_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
 </div>
@@ -92,7 +107,6 @@
     <div class="form-row">
         <input type="checkbox" id="crossfit" name="exercicio_checkbox[]" value="crossfit">
         <label for="flexoes">Flexões</label>
-        <input type="number" id="crossfit_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="crossfit_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="crossfit_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -102,7 +116,6 @@
     <div class="form-row">
         <input type="checkbox" id="crossfit" name="exercicio_checkbox[]" value="crossfit">
         <label for="flexoesdetriceps">Flexões de triceps</label>
-        <input type="number" id="crossfit_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="crossfit_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="crossfit_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -112,7 +125,6 @@
     <div class="form-row">
         <input type="checkbox" id="crossfit" name="exercicio_checkbox[]" value="crossfit">
         <label for="flexoescominclinaçao">Flexões com inclinação</label>
-        <input type="number" id="crossfit_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="crossfit_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="crossfit_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -122,7 +134,6 @@
     <div class="form-row">
         <input type="checkbox" id="flexoes" name="exercicio_checkbox[]" value="flexoes">
         <label for="flexoes">Flexões de braço</label>
-        <input type="number" id="flexoes_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="flexoes_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="flexoes_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -132,7 +143,6 @@
     <div class="form-row">
         <input type="checkbox" id="danca" name="exercicio_checkbox[]" value="danca">
         <label for="afundo">Afundo</label>
-        <input type="number" id="danca_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="danca_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="danca_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -142,7 +152,6 @@
     <div class="form-row">
         <input type="checkbox" id="abdominais" name="exercicio_checkbox[]" value="abdominais">
         <label for="abdominais">Abdominais</label>
-        <input type="number" id="abdominais_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="abdominais_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="abdominais_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -152,7 +161,6 @@
     <div class="form-row">
         <input type="checkbox" id="agachamentos" name="exercicio_checkbox[]" value="agachamentos">
         <label for="agachamentos">Agachamentos</label>
-        <input type="number" id="agachamentos_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="agachamentos_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="agachamentos_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -162,7 +170,6 @@
     <div class="form-row">
         <input type="checkbox" id="supino" name="exercicio_checkbox[]" value="supino">
         <label for="burpees">Burpees</label>
-        <input type="number" id="supino_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="supino_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="supino_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -172,7 +179,6 @@
     <div class="form-row">
         <input type="checkbox" id="remada" name="exercicio_checkbox[]" value="remada">
         <label for="polichinelos">Polichinelos</label>
-        <input type="number" id="remada_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="remada_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="remada_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -182,7 +188,6 @@
     <div class="form-row">
         <input type="checkbox" id="pular_corda" name="exercicio_checkbox[]" value="pular_corda">
         <label for="pular_corda">Pular corda</label>
-        <input type="number" id="pular_corda_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="pular_corda_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="pular_corda_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -192,7 +197,6 @@
     <div class="form-row">
         <input type="checkbox" id="prancha" name="exercicio_checkbox[]" value="prancha">
         <label for="prancha">Prancha</label>
-        <input type="number" id="prancha_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="prancha_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="prancha_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -202,7 +206,6 @@
     <div class="form-row">
         <input type="checkbox" id="prancha" name="exercicio_checkbox[]" value="prancha">
         <label for="pranchalateral">Prancha lateral</label>
-        <input type="number" id="prancha_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="prancha_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="prancha_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -212,7 +215,6 @@
     <div class="form-row">
         <input type="checkbox" id="crossover" name="exercicio_checkbox[]" value="crossover">
         <label for="jumpsquats">Jump squats</label>
-        <input type="number" id="crossover_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="crossover_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="crossover_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -222,7 +224,6 @@
     <div class="form-row">
         <input type="checkbox" id="voador" name="exercicio_checkbox[]" value="voador">
         <label for="levantamentodeperna">Levantamento de perna</label>
-        <input type="number" id="voador_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="voador_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="voador_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
@@ -232,7 +233,6 @@
     <div class="form-row">
         <input type="checkbox" id="voador" name="exercicio_checkbox[]" value="voador">
         <label for="yoga">Yoga</label>
-        <input type="number" id="voador_quantidade_vezes" name="exercicio_quantidade_vezes[]" min="0" max="7" value="0"> vezes por semana
         <input type="number" id="voador_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="2" value="0"> horas
         <input type="number" id="voador_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
