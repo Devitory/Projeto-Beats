@@ -12,45 +12,18 @@
 
   <body>
     <div class="splash-screen">
-      <h1 class="logo-header"> <span class="logo">BEATS</span><br /> </h1>
+      <h1 class="logo-header"> <span class="logo">BEATS </span><br /> </h1>
     </div>
-    <!-- COLOCAR FORMULARIO AQUI?? -->
+    <!-- Script para redirecionamento automático -->
+    <script>
+      // Função para redirecionar para outra página após um certo tempo
+      function redirect() {
+        // Altere "outra_pagina.html" para o URL da página que deseja redirecionar
+        window.location.replace("index.html");
+      }
 
-    <div class="login1">
-      <form id="form1" method="post">
-        <h1>LOGIN</h1>
-        <br />
-        <br />
-
-        <div class="login">
-          <label for="username">Nome </label>
-          <input type="text" placeholder="Username" />
-          <i class="bx bxs-user"></i>
-          <br />
-          <br />
-        </div>
-
-        <div class="Senha">
-          <label for="senha">Senha</label>
-          <input type="password" placeholder="Senha" required />
-          <i class="bx bxs-lock-alt"></i>
-          <br />
-          <br />
-        </div>
-
-        <input type="submit" value="Entrar" />
-        <br />
-        <br />
-
-        <div class="link de registro">
-          <p
-            >Não possui conta?
-            <br />
-
-            <a href="register.html"> Criar conta</a>
-          </p>
-        </div>
-      </form>
-    </div>
+      // Defina o tempo em milissegundos antes de redirecionar (por exemplo, 5000 para 5 segundos)
+      setTimeout(redirect, 3252); // Redireciona após 3.2 segundos
+    </script>
   </body>
 </html>
