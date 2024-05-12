@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+a {
+  text-decoration: none; /* Responsavel por tirar azul classico de link de acesso */ 
+  color: #ff7323; 
+}
+
+.splash-screen {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(90deg, rgb(255, 51, 0), #ff7323);
+  transition: 1s;
+  /* isso é o tempo de transição após splash screen BEATS */
+}
+
+#form1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.login1 {
+  background-image: linear-gradient(90deg, rgb(255, 51, 0), #ff7323);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 110vh;
+}
+
+.logo-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+
+.logo {
+  font-size: 90px;
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+}
+
+.logo.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.6s;
+}
+
+.logo.fade {
+  transition: ease-in-out 0.5s;
+}
