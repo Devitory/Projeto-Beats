@@ -56,6 +56,15 @@
     background: #fc4c35;
 }
 
+@media only screen and (max-width: 768px) {
+  form {
+    width: 250px;
+    padding: auto;
+  }
+  label {
+    width: 80px;
+  }
+}
     </style>
 </head>
 <body>
@@ -76,7 +85,7 @@
     <div class="form-row">
         <input type="checkbox" id="corrida" name="exercicio_checkbox[]" value="corrida">
         <label for="corrida">Corrida</label>
-        <input type="number" id="crossfit_duracao_horas" name="exercicio_duracao_horas[]" min="0" max="10" value="0"> vezes
+       
         <input type="number" id="crossfit_duracao_minutos" name="exercicio_duracao_minutos[]" min="0" max="59" value="0"> minutos
     </div>
 
