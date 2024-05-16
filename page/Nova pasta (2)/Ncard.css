@@ -8,21 +8,15 @@ body{
   text-align: center;
 }
 .container1{
-  height: 250px;
-  width: 250px;
+  height: 470px;
+  width: 300px;
   overflow: hidden;
   margin: 0 auto;
-  border-radius: 50%;
-  transition: all 0.3s ease-in-out;
+
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
   background: linear-gradient(45deg, #fc4c35, black);
 }
-.container1:hover{
-  height: 470px;
-  width: 300px;
-  border-radius: 5px;
-  box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
-}
+
 .container1 .wrapper img{
   position: relative;
   z-index: 20;
@@ -85,3 +79,9 @@ body{
   transform: scale(0.95);
 }
 
+@media (max-width:786px) {
+  
+.container1{
+    width: 400px;
+  }
+}
