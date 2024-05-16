@@ -13,7 +13,7 @@
   
   .container {
     position: relative;
-    padding: 15px;
+    padding: 9px;
     max-width: 1240px;
     margin: 0 auto;
   }
@@ -71,6 +71,7 @@ body{
 }
 @media (max-width:785px) 
 {
+    
     /*main*/
     .home{
         padding: 100px 2%;
@@ -87,3 +88,4 @@ body{
         line-height: 3rem;
     }
 }
+
